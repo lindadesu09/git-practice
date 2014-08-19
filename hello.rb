@@ -1,4 +1,4 @@
-# Lab17 (v1) removing commits from a branch
+# Lab17 2nd temp
 name = ARGV.first || "World"
 
 puts "Hello, #{name}!"
