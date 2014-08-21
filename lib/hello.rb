@@ -1,6 +1,6 @@
-# Lab19 Add an author comment & Email
+# Lab19 Amending Commit
 # Default is World
-# Author: Jim Weirich (jim@somewhere.com)
+# Author: Jim Weirich
 name = ARGV.first || "World"
 
 puts "Hello, #{name}!"
