@@ -1,6 +1,9 @@
 # Lab19 Amending Commit
 # Default is World
 # Author: Jim Weirich
-name = ARGV.first || "World"
 
-puts "Hello, #{name}!"
+
+puts "What's your name"
+my_name = gets.strip
+
+puts "hello, #{my_name}!"
