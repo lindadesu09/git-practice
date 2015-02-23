@@ -1,14 +1,3 @@
-// (function() {
-
-// 	var link = document.getElementsByTagName('a')[0];
-
-// 	link.onclick = function(e) {
-// 		// e.preventDefault();
-// 		return false;
-// 	}
-
-// })();
-
 (function() {
 
 	var link = document.getElementsByTagName("a")[0];
@@ -42,7 +31,7 @@
 		//send the request
 		xhr.send(null);
 
-		return false; // same as preventDefault();
+		return false;
 	};
 
 })();
