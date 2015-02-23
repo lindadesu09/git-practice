@@ -19,15 +19,18 @@
 				xhr.responseText;
 
 				var body = document.getElementsByTagName("body")[0];
-				var p = document.createElement("p");
-				var pText = document.createTextNode(xhr.responseText);
-				p.appendChild(pText);
-				body.appendChild(p);
+				var d = document.createElement("div");
+				body.appendChild(d);
+
+				var div = document.getElementsByTagName("div")[0];
+				div.innerHTML = xhr.responseText;
+
+				body.removeChild(link);
 			}
 		};
 
 		//open the request
-		xhr.open("GET", "files/ajax.txt", true);
+		xhr.open("GET", "files/ajax.html", true);
 		//send the request
 		xhr.send(null);
 
